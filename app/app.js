@@ -15,7 +15,7 @@ app.get('*', function(req, res){
     var options = {
         host: 'localhost',
         port: 8080,
-        path: '/',
+        path: '/api/init',
         method: 'GET'
     };
 
